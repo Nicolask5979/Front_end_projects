@@ -1,0 +1,36 @@
+body{
+    background-color: #323946;
+}
+.main{
+    position: relative;
+    color: white;
+    text-align: center;
+    font-weight: 5rem;
+    font-size: 3.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    top: 12rem;
+}
+.sub{
+    color: white;
+    position: relative;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    top: 10rem;
+}
+.loader {
+    position: relative;
+    border: 12px solid #f3f3f3;
+    border-top: 12px solid #3498db; 
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    animation: spin 2s linear infinite;
+    left: 47rem;
+    top: 9.8rem;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
